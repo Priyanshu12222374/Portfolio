@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Priyanshu Priyadarshi</title>
+    <link rel="stylesheet" href="CSS/resume.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <video autoplay muted loop id="bg-video">
+            <source src="videos/video2.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="images/giphy.gif" alt="Coder Logo" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="about_me.html">About Me</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="certification.html">Certifications</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <div class="container resume-section">
+                <div class="resume-header">
+                    <h1><strong>My Resume</strong></h1>
+                    <a href="MYCV.pdf" target="_blank" class="resume-btn">View CV</a>
+                </div>
+
+                <div class="resume-cards">
+
+                    
+
+                    <!-- Skills Section -->
+                    <div class="resume-card">
+                        <h3>Skills</h3>
+
+                        <!-- Programming Languages -->
+                        <h4>Programming Languages</h4>
+                        <div class="carousel-container">
+                            <div class="carousel">
+                                <div class="skill-item"><img src="images/skill/skill7.png" alt="C++" class="circle-img"><p class="skill-label">C++</p></div>
+                                <div class="skill-item"><img src="images/skill/skill6.png" alt="JAVA" class="circle-img"><p class="skill-label">JAVA</p></div>
+                                <div class="skill-item"><img src="images/skill/python.jpg" alt="Python" class="circle-img"><p class="skill-label">Python</p></div>
+                                <div class="skill-item"><img src="images/skill/skill3.png" alt="JavaScript" class="circle-img"><p class="skill-label">JavaScript</p></div>
+                            </div>
+                        </div>
+
+                        <!-- Tools -->
+                        <h4>Tools</h4>
+                        <div class="carousel-container">
+                            <div class="carousel">
+                                <div class="skill-item"><img src="images/Numpy.jpg" alt="Git" class="circle-img"><p class="skill-label">Numpy</p></div>
+                                <div class="skill-item"><img src="images/skill/figma.png" alt="Figma" class="circle-img"><p class="skill-label">Figma</p></div>
+                                <div class="skill-item"><img src="images/skill/skill4.png" alt="MySQL" class="circle-img"><p class="skill-label">MySQL</p></div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!-- Education Section -->
+                    <div class="resume-card">
+                        <h3>Education</h3>
+                        <div class="education-grid">
+
+                            <!-- College -->
+                            <div class="edu-item">
+                                <img src="images/education/LPU.png" alt="College">
+                                <h5>Lovely Professional University</h5>
+                                <p>2022 – Present</p>
+                                <p><strong>CGPA:</strong> 5.2</p>
+                            </div>
+
+                            <!-- School 2 -->
+                            <div class="edu-item">
+                                <img src="images/RRS.png" alt="School 2">
+                                <h5>Red Rose School</h5>
+                                <p>2019 – 2021</p>
+                                <p><strong>Result:</strong> 73% (CBSE)</p>
+                            </div>
+
+                            <!-- School 1 -->
+                            <div class="edu-item">
+                                <img src="images/RRS.png" alt="School 1">
+                                <h5>Red Rose School</h5>
+                                <p>2018 – 2019</p>
+                                <p><strong>Result:</strong> 75% (CBSE)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                
+            </div>
+        </footer>
+    </div>
+
+    <script src="JS/resume.js"></script>
+</body>
+</html>

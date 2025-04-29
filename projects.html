@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeraj Mahato - Projects</title>
+    <link rel="stylesheet" href="CSS/projects.css">
+</head>
+
+<body>
+    <div id="header">
+        <video autoplay muted loop id="bg-video">
+            <source src="videos/video2.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="images/giphy.gif" alt="Coder Logo" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="about_me.html">About Me</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="certification.html">Certifications</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    <!-- Projects Section -->
+        <section class="projects-section">
+            <center><strong><h1>Projects</h1></strong></center>
+            <br>
+            <br>
+            <div class="project-card">
+                <img src="images/simulation-self-driving-car-teaser-1.jpg" alt="Project 1">
+                <div class="project-content">
+                    <h2>Autonomous Driving Simulation </h2>
+                    <p>Objective: This study makes several contributions to the field of autonomous driving.</p>
+                    <p>Key Insights: Explored reinforcement learning algorithms like Deep Q-Network (DQN), Deep Deterministic Policy Gradient 
+                        (DDPG), and Proximal Policy Optimization (PPO) for continuous control tasks.</p>
+                    <p>Outcome: Demonstrated the effectiveness of reinforcement learning methods in improving decision-making in autonomous 
+                        vehicles. </p>
+                    <p>Technologies used:Python, TensorFlow, OpenAI Gym, CARLA Simulator.  .</p>
+                    <a href="#" class="project-btn" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card reverse">
+                <img src="images/Machine-Translation-Model.png" alt="Project 2">
+                <div class="project-content">
+                    <h2>Machine Translation and Document Search System </h2>
+                    <p>Objective: To develop a hybrid model combining neural networks and vector space models for improved machine translation 
+                        and document retrieval. </p>
+                    <p>Key Insights: Leveraged models like TF-IDF, Word2Vec, and Glove for vector representation; integrated with neural 
+                        networks to enhance translation quality and search accuracy.</p>
+                    <p>Outcome: Achieved higher robustness and relevance in translation and information retrieval tasks.</p>
+                    <p>Tech Stack: Python, TensorFlow, scikit-learn, Genism </p>
+                    <a href="#" class="project-btn" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/Tree.png" alt="Project 3">
+                <div class="project-content">
+                    <h2>Vision-Based Tree Health Monitoring </h2>
+                    <p>Objective: This study contributes to the field of environmental conservation by developing an automated system for monitoring tree health in forests using drone imagery and computer vision.</p>
+                    <p>Outcome: Achieved a classification accuracy of 93.2%, demonstrating the practical effectiveness of drone-based computer vision systems for large-scale forest health assessment and enabling timely intervention by forest management authorities.</p>
+                    <p>Key Insights: Designed a complete pipeline involving high-resolution UAV-based data collection, semantic segmentation for tree crown isolation, and deep learning-based classification to distinguish healthy, diseased, and dead trees.</p>
+                    <p>Tech Stack: Python, TensorFlow, OpenCV, DJI Drone Systems, ResNet-50 CNN Model.</p>
+                    <a href="#" class="project-btn" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+            <div class="see-more-wrapper">
+                
+                See More
+                </a>
+            </div>
+        </section>
+    </div>
+        <footer class="footer">
+            <div class="footer-content">
+                
+            </div>
+        </footer>
+    <script src="JS/Priyanshu.js"></script>
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
